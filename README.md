@@ -8,5 +8,6 @@ I had to build a timed coding quiz with multiple-choice questions. This app will
 I used the activites and help from the assistance for this task. Going over the activites and doing some extra google search helped with this task. I used external websites like stack-overflow, mdm, and chatgpt etc. These tools helped me develop the code I have so far. 
 
 ## Github page link
+https://hitesh70738.github.io/hits-Quiz/
 
 ## Screenshot
