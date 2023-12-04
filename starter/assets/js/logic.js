@@ -70,9 +70,6 @@ startBtn.addEventListener('click', function(event){
 })
 
 
-
-
-
 function endPage () {
     clearInterval(timerEl);
     document.getElementById('questions').classList.add('hide');
@@ -80,11 +77,6 @@ function endPage () {
     finalScores.textContent = timeleft;
     submitButton.addEventListener('click', saveScore);
 }
-
-function saveScore () {
-    const initals = initialsInput.value
-}
-
 
 
 
