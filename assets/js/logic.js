@@ -35,16 +35,14 @@ function showQuestion (){
                 timeleft -= 10;
                 console.log('wrong')
                 timerEl.textContent = timeleft
-                endPage();
             }
             position++;
-            showQuestion();
-
+            showQuestion();            
         })
         
     }  
-     
 }
+
 
 
 startBtn.addEventListener('click', function(event){
@@ -63,10 +61,7 @@ startBtn.addEventListener('click', function(event){
                 clearInterval(timerInterval)
             }
         }, 1000);
-    }
-
-
-    
+    }    
 })
 
 
