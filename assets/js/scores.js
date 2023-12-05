@@ -25,6 +25,3 @@ clearScore.addEventListener('click', function(event) {
     li1.innerHTML = ''
 })
 
-///grab button with selectore
-// creeate select score
-// create eventcreate function to clear

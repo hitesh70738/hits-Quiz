@@ -33,4 +33,4 @@ const listQ = [
     },
 ]
 
-// console.log(listQ[1].choice1);
+

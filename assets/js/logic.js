@@ -23,12 +23,10 @@ function showQuestion (){
         questionChoice.appendChild(choiceBtn);
         
         choiceBtn.addEventListener('click', function(event){
-            // console.log(listQ[position].correctAns)
-            // console.log(event.target.textContent)
+            
             
             if (event.target.textContent == listQ[position].correctAns){
-                // event.target.textContent = 'Correct'
-                // questionChoice.appendChild('correcty');
+
                 console.log('correct');
             } 
             else{
@@ -45,14 +43,10 @@ function showQuestion (){
         endPage();
         }
 
-    // submitButton.addEventListener('click', function(event){
-    //     document.location.href = 'highscores.html'
-    // })
 
 }
 
 submitButton.addEventListener('click', function(event){
-    // document.location.href = 'highscores.html'
     console.log('submitButton')
     storeScore();
 
@@ -83,7 +77,6 @@ function endPage () {
     document.getElementById('questions').classList.add('hide');
     endScreen.classList.remove('hide');
     finalScores.textContent = timeleft >= 0 ? timeleft : 0;
-    // submitButton.addEventListener('click', storeScore);
 
 }
 
@@ -98,7 +91,6 @@ function storeScore (){
     };
     
     if (JSON.parse(localStorage.getItem('quizscores'))) {
-        // console.log(JSON.parse(localStorage.getItem('quizscores')));
         let storeData = JSON.parse(localStorage.getItem('quizscores'));
         allScoreData = storeData
         allScoreData.push(scoreData);
@@ -110,19 +102,6 @@ function storeScore (){
     console.log('saved scores:', allScoreData);
     document.location.href = 'highscores.html'
     
-    // for (let i = 0; i <allScoreData.length;i++){
-    //     let listItem = document.createElement('li');
-    //     listItem.textContent = allScoreData[i];
-    //     var li1 = document.querySelector('#highscore');
-    //     li1.appendChild(listItem);
-    // }
-
-    
-    // let scores = JSON.parse(localStorage.getItem('quizscores'));
-    // scores.push(scoreData);
-    // scores.sort (function(a, b){
-    //     return b.score - a.score
-    // })
     
 
 }
