@@ -1,3 +1,5 @@
+const clearScore = document.querySelector('#clear')
+
 function storeScore (){
     let allScoresData = []
     if (JSON.parse(localStorage.getItem('quizscores'))) {
@@ -16,6 +18,13 @@ function storeScore (){
 }
 storeScore();
 
+clearScore.addEventListener('click', function(event) {
+    localStorage.removeItem('quizscores')
+
+    var li1 = document.querySelector('#highscores');
+    li1.innerHTML = ''
+})
+
 ///grab button with selectore
-// creeate selectore
+// creeate select score
 // create eventcreate function to clear
