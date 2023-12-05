@@ -10,4 +10,8 @@ I used the activites and help from the assistance for this task. Going over the 
 ## Github page link
 https://hitesh70738.github.io/hits-Quiz/
 
+## Conclusion
+
+This weeks challenege has been one of the most difficult to attempt. The logic makes sense and certain parts click. For example getting the timer to work, and subtract time of it. But there are simply too many moving parts to get my head around. I understand the logic but the final piece is lacking some functionality of the site. 
+
 ## Screenshot
