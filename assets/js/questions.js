@@ -1,35 +1,35 @@
 const listQ = [
     {
-        questionTitle:'This is Q1',
-        correctAns: 'option 1',
-        choice1: 'option 1',
-        choice2: 'option 2',
-        choice3: 'option 3',
-        choice4: 'option 4'
+        questionTitle:'Q1 How many Planets are there?',
+        correctAns: '8',
+        choice1: '8',
+        choice2: '9',
+        choice3: '6',
+        choice4: '5'
     },
     {
-        questionTitle:'This is Q2',
-        correctAns: 'option 2s',
-        choice1: 'option 1a',
-        choice2: 'option 2s',
-        choice3: 'option 3d',
-        choice4: 'option 4f'
+        questionTitle:'What is an array in JavaScript?',
+        correctAns: '[]',
+        choice1: '{}',
+        choice2: '()',
+        choice3: '""',
+        choice4: '[]'
     },
     {
-        questionTitle:'This is Q3',
-        correctAns: 'option 3',
-        choice1: 'option 1',
-        choice2: 'option 2',
-        choice3: 'option 3',
-        choice4: 'option 4'
+        questionTitle:'What is 5+5?',
+        correctAns: '10',
+        choice1: '12',
+        choice2: '10',
+        choice3: '8',
+        choice4: '11'
     },
     {
-        questionTitle:'This is Q4',
-        correctAns: 'option 4',
-        choice1: 'option 1',
-        choice2: 'option 2',
-        choice3: 'option 3',
-        choice4: 'option 4'
+        questionTitle:'How create a Variable in Javascript?',
+        correctAns: 'var =',
+        choice1: 'var =',
+        choice2: 'function = ',
+        choice3: 'document = ',
+        choice4: '=='
     },
 ]
 
