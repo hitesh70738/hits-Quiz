@@ -15,3 +15,7 @@ https://hitesh70738.github.io/hits-Quiz/
 This weeks challenege has been one of the most difficult to attempt. The logic makes sense and certain parts click. For example getting the timer to work, and subtract time of it. But there are simply too many moving parts to get my head around. I understand the logic but the final piece is lacking some functionality of the site. 
 
 ## Screenshot
+<img src='./images/homepage.png'>
+<img src='./images/questions.png'>
+<img src='./images/enterscore.png'>
+<img src='./images/highscore.png'>
